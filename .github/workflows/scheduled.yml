@@ -12,6 +12,7 @@ jobs:
     # 強制所有 Actions 使用 Node 24 執行，消除 Node 20 棄用警告
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      TZ: Asia/Taipei
 
     steps:
       - name: Checkout code
